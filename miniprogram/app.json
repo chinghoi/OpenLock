@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/second/second"
+  ],
+  "plugins": {
+    "myPlugin": {
+      "version": "dev",
+      "provider": "wx20eeff6584a6e9f4"
+    }
+  },
+  "window": {
+    "backgroundColor": "#666666",
+    "navigationBarTitleText": "小杨锁具",
+    "navigationBarBackgroundColor": "#FF9900"
+  },
+  "tabBar": {
+    "selectedColor": "#FF9900",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "预约服务",
+      "iconPath": "pages/tabBarSrc/维修.png",
+      "selectedIconPath": "pages/tabBarSrc/维修select.png"
+    },{
+      "pagePath": "pages/second/second",
+      "text": "联系师傅",
+      "iconPath": "pages/tabBarSrc/联系人.png",
+      "selectedIconPath": "pages/tabBarSrc/联系人select.png"
+    }]
+  }
+}
